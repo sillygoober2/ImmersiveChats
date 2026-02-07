@@ -1,0 +1,22 @@
+#Available Colors: RED, GOLD, YELLOW, GREEN, AQUA, BLUE, LIGHT_PURPLE, GRAY, DARK_GRAY
+
+chat-radius: 30.0
+chat-speech-tag: "says"
+
+yell-radius: 45.0
+yell-speech-tag: "yells"
+yell-when-capitalized: true
+
+whisper-radius: 5.0
+whisper-speech-tag: "whispers"
+whisper-when-sneaking: true
+
+uppercase-first: true
+add-full-stop: true
+
+create-text: true
+text-duration-seconds: 5
+text-spacing: 0.3
+text-follows-player: true
+
+allow-private-messages: false

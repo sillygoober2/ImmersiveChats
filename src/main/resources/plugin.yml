@@ -1,0 +1,22 @@
+name: ImmersiveChats
+version: '1.0'
+main: github.sillygoober2.immersiveChats.ImmersiveChats
+api-version: '1.21.8'
+
+commands:
+  yell:
+    description: Yells the message in chat (bigger radius)
+    usage: /yell <message>
+    aliases: [y, shout, loud, l]
+  whisper:
+    description: Whispers the message in chat (smaller radius)
+    usage: /whisper <message>
+    aliases: [w, wh, mutter, low]
+  icreload:
+    description: Reloads the Immersive Chats config
+    usage: /icreload
+    aliases: [immersivechatsreload]
+
+permissions:
+  immersivechats.reloadConfig:
+    description: Reloads the config without restarting the server
